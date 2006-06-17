@@ -24,10 +24,10 @@ means for displaying the command line syntax directly from the array
 of argument specifications.
 
 %package devel
-Summary:        Header files for argtable2 library
-Summary(pl):    Pliki nag³ówkowe biblioteki argtable2
-Group:          Development/Libraries
-Requires:       %{name} = %{version}-%{release}
+Summary:	Header files for argtable2 library
+Summary(pl):	Pliki nag³ówkowe biblioteki argtable2
+Group:		Development/Libraries
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for argtable2 library.
@@ -36,10 +36,10 @@ Header files for argtable2 library.
 Pliki nag³ówkowe biblioteki argtable2.
 
 %package static
-Summary:        Static argtable2 library
-Summary(pl):    Statyczna biblioteka argtable2
-Group:          Development/Libraries
-Requires:       %{name}-devel = %{version}-%{release}
+Summary:	Static argtable2 library
+Summary(pl):	Statyczna biblioteka argtable2
+Group:		Development/Libraries
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static argtable2 library.
