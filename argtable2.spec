@@ -1,5 +1,5 @@
 Summary:	An ANSI C library for parsing GNU style command line arguments
-Summary(pl.UTF-8):   Biblioteka ANSI C do analizy argumentów linii poleceń w stylu GNU
+Summary(pl.UTF-8):	Biblioteka ANSI C do analizy argumentów linii poleceń w stylu GNU
 Name:		argtable2
 Version:	6
 Release:	0.9
@@ -38,7 +38,7 @@ specyfikacji argumentów.
 
 %package devel
 Summary:	Header files for argtable2 library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki argtable2
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki argtable2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -50,7 +50,7 @@ Pliki nagłówkowe biblioteki argtable2.
 
 %package static
 Summary:	Static argtable2 library
-Summary(pl.UTF-8):   Statyczna biblioteka argtable2
+Summary(pl.UTF-8):	Statyczna biblioteka argtable2
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
