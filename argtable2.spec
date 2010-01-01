@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/argtable/%{name}-%{version}.tar.gz
 URL:		http://argtable.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Argtable is an ANSI C library for parsing GNU style command line
