@@ -2,7 +2,7 @@ Summary:	An ANSI C library for parsing GNU style command line arguments
 Summary(pl.UTF-8):	Biblioteka ANSI C do analizy argumentów linii poleceń w stylu GNU
 Name:		argtable2
 Version:	13
-Release:	1
+Release:	2
 License:	LGPL v2
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/argtable/%{name}-%{version}.tar.gz
